@@ -1,3 +1,32 @@
+Standard Code Sample Project
+ 
+ 
+The project objective is to develop an API that responds to the following requests:
+ 
+GET /events ‐ get all events
+{string} impact, optional query param ‐ allow for specific impact or comparisons (like "1" or ">=1")
+{date} from_date, optional query param
+{date} to_date, optional query param
+{string} instrument, optional query param
+GET /events/{event_id} ‐ get a specific event by ID
+POST /events/{event_id} ‐ edit an individual event
+ 
+The event object is modeled after a API calendar event, and should look like:
+ 
+1. {int} id
+2. {string} title
+3. {date} date
+4. {int} impact
+5. {string} instrument
+6. {double} actual
+7. {double} forecast
+ 
+API requirements:
+1. All API responses are in JSON
+2. Dates in JSON are in the ISO 8601 format
+
+========================
+
 Symfony Standard Edition
 ========================
 
