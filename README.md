@@ -1,5 +1,5 @@
 Standard Code Sample Project
- 
+========================
  
 The project objective is to develop an API that responds to the following requests:
  
@@ -25,7 +25,9 @@ API requirements:
 1. All API responses are in JSON
 2. Dates in JSON are in the ISO 8601 format
 
-========================
+
+--------------
+
 
 Symfony Standard Edition
 ========================
